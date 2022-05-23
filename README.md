@@ -11,19 +11,25 @@ Lisez-bien l'entiereté de ce document vous retrouverez toutes les informations 
 
 ### [Module 1 - Introduction au Web](/1_Web_Intro/story_web.md)
 
-- Historique d'internet
-- Client-Serveur
-- Protocole HTTP
-- Ports
-- Web hosting
-- Serveur Local
-- Les URL
-- Nom de domaine
-- Site dynamique VS site statique
-- Savoir utiliser Google
-- Revue des cheat sheets
-- Visual Studio Code
-- L'inspecteur de page web, votre meilleur ami
+- [Comprendre le World Wide Web](./1_Web_Intro/story_web.md#comprendre-le-world-wide-web)
+  - [Table des matières](./1_Web_Intro/story_web.md#table-des-matières)
+  - [L'histoire du Web en Bref](./1_Web_Intro/story_web.md#lhistoire-du-web-en-bref)
+  - [Qu'est ce qu'un client](./1_Web_Intro/story_web.md#quest-ce-quun-client)
+    - [Développement Front-End](./1_Web_Intro/story_web.md#développement-front-end)
+  - [Qu'est ce qu'un serveur ?](./1_Web_Intro/story_web.md#quest-ce-quun-serveur-)
+    - [Développement Back-End](./1_Web_Intro/story_web.md#développement-back-end)
+    - [Notion de serveur local et de web hosting](./1_Web_Intro/story_web.md#notion-de-serveur-local-et-de-web-hosting)
+    - [URLs](./1_Web_Intro/story_web.md#urls)
+      - [Serveur distant](./1_Web_Intro/story_web.md#serveur-distant)
+      - [Le serveur local](./1_Web_Intro/story_web.md#le-serveur-local)
+  - [Comment transférer vos fichiers locaux vers un hébergeur](./1_Web_Intro/story_web.md#comment-transférer-vos-fichiers-locaux-vers-un-hébergeur)
+  - [Quelle est la différence entre un site statique et un site dynamique ?](./1_Web_Intro/story_web.md#quelle-est-la-différence-entre-un-site-statique-et-un-site-dynamique-)
+    - [Site statique](./1_Web_Intro/story_web.md#site-statique)
+    - [Site dynamique](./1_Web_Intro/story_web.md#site-dynamique)
+  - [Les outils de développement](./1_Web_Intro/story_web.md#les-outils-de-développement)
+  - [Conclusion](./1_Web_Intro/story_web.md#conclusion)
+  
+[:arrow_up: Revenir au début](#sommaire-du-cours)
 
 ### [Module 2 - Introduction HTML & CSS](/2_HTML_CSS_Intro/)
 
@@ -58,6 +64,8 @@ Lisez-bien l'entiereté de ce document vous retrouverez toutes les informations 
 
 - Structurer et styliser une page web
 
+[:arrow_up: Revenir au début](#sommaire-du-cours)
+
 ### [Module 3 - Introduction JavaScript](/3_JS_Intro/)
 
 [**1. Github Desktop**](/3_JS_Intro/1_github_desktop.md)
@@ -86,6 +94,8 @@ Lisez-bien l'entiereté de ce document vous retrouverez toutes les informations 
 
 - Application météo
 
+[:arrow_up: Revenir au début](#sommaire-du-cours)
+
 ### [Module 4 - JavaScript niveau avancé](/4_JS_Advanced/)
 
 1. [**JavaScript un langage plein de surprises**](/4_JS_Advanced/)
@@ -99,8 +109,12 @@ Lisez-bien l'entiereté de ce document vous retrouverez toutes les informations 
 
 ### [Module 5 - Projet Global en collaboration avec les autres formations Sirius.](/5_Global_Project/)
 
+[:arrow_up: Revenir au début](#sommaire-du-cours)
+
 ## [Ressources](/Resources/)
 
 - [Feuilles de triche](/Resources/cheat_sheets.md)
 - [Images](/Resources/Images/)
 - [Documentations](/Resources/Docs/)
+
+[:arrow_up: Revenir au début](#sommaire-du-cours)
