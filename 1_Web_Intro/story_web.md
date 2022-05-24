@@ -1,26 +1,26 @@
+<!-- omit in toc -->
 # Comprendre le World Wide Web
 
 Avant de vous lancer dans l'apprentissage des langages de programmation, il est important de comprendre comment le web fonctionne. Nous allons aborder brièvement l'histoire du Web, son fonctionnement et ce qui vous permet de consulter une page Web grâce à vos téléphones, tablettes ou ordinateur.
 
+<!-- omit in toc -->
 ## Table des matières
 
-- [Comprendre le World Wide Web](#comprendre-le-world-wide-web)
-  - [Table des matières](#table-des-matières)
-  - [L'histoire du Web en bref](#lhistoire-du-web-en-bref)
-  - [Qu'est ce qu'un client](#quest-ce-quun-client)
-    - [Développement Front-End](#développement-front-end)
-  - [Qu'est ce qu'un serveur ?](#quest-ce-quun-serveur-)
-    - [Développement Back-End](#développement-back-end)
-    - [Notion de serveur local et de web hosting](#notion-de-serveur-local-et-de-web-hosting)
-    - [URLs](#urls)
-      - [Serveur distant](#serveur-distant)
-      - [Le serveur local](#le-serveur-local)
-  - [Comment transférer vos fichiers locaux vers un hébergeur](#comment-transférer-vos-fichiers-locaux-vers-un-hébergeur)
-  - [Quelle est la différence entre un site statique et un site dynamique ?](#quelle-est-la-différence-entre-un-site-statique-et-un-site-dynamique-)
-    - [Site statique](#site-statique)
-    - [Site dynamique](#site-dynamique)
-  - [Les outils de développement](#les-outils-de-développement)
-  - [Conclusion](#conclusion)
+- [L'histoire du Web en bref](#lhistoire-du-web-en-bref)
+- [Qu'est ce qu'un client](#quest-ce-quun-client)
+  - [Développement Front-End](#développement-front-end)
+- [Qu'est ce qu'un serveur ?](#quest-ce-quun-serveur-)
+  - [Développement Back-End](#développement-back-end)
+  - [Notion de serveur local et de web hosting](#notion-de-serveur-local-et-de-web-hosting)
+  - [URLs](#urls)
+    - [Serveur distant](#serveur-distant)
+    - [Le serveur local](#le-serveur-local)
+- [Comment transférer vos fichiers locaux vers un hébergeur](#comment-transférer-vos-fichiers-locaux-vers-un-hébergeur)
+- [Quelle est la différence entre un site statique et un site dynamique ?](#quelle-est-la-différence-entre-un-site-statique-et-un-site-dynamique-)
+  - [Site statique](#site-statique)
+  - [Site dynamique](#site-dynamique)
+- [Les outils de développement](#les-outils-de-développement)
+- [Conclusion](#conclusion)
 
 ## L'histoire du Web en bref
 
