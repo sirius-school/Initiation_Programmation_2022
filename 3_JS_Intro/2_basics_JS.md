@@ -11,6 +11,8 @@
   - [La syntaxe](#la-syntaxe)
   - [Les types de variables](#les-types-de-variables)
     - [1. Chaine de caractères (string)](#1-chaine-de-caractères-string)
+  - [2. Les nombres (number)](#2-les-nombres-number)
+  - [3. Booléens (boolean)](#3-booléens-boolean)
 
 ## À propos de JavaScript ?
 
@@ -110,6 +112,42 @@ console.log(`Je m'appelle ${firstname}, j'ai ${age} et je suis ${job}`);
 Nous obtiendrons dans notre console :
 ``Je m'appelle Lucas, j'ai 29 ans et je suis Web Coach en Sirius !``
 
+[:arrow_up: Revenir au top](#table-des-matières)
+
+### 2. Les nombres (number)
+
+Grâce aux nombres vous pourrez réaliser un tas d'opérations utiles à votre application, paginations, boucles de rendu, calculs... Pas de panique, il ne faut pas être bon en math pour réaliser ces opérations, Javascript le fait pour vous, du moment où vous utilisez la bonne syntaxe afin de lui indiquer le travail qu'il a à effectuer. 
+
+Exemple de variable typée number :
+```js
+let firstNumber= 1; 
+let secondNumber = 2; 
+```
+Imaginons que je souhaite afficher le résultat de l'addition de ces deux nombres :
+```js
+console.log(firstNumber + secondNumber);
+```
+Le résultat (output) de cette opération sera ``3`` 
+
+Observez bien la différence entre les deux types de variables, pour réaliser l'opération (une addition en l'occurence) j'ai du indiquer à ma variable qu'il s'agissait d'un chiffre, pour ce faire il suffit tout simplement d'écrire vos nombres dépourvu de guillemets. 
+
+Lorsque ma variable est typée "number" je peux réaliser des opérations mathématiques et obtenir un résultat cohérent. Si ma variable chaîne de caractères contenant des nombres je ne pourrais pas réaliser d'opérations en dehors de la concaténation. Gardez cela à l'esprit quand vous créez une nouvelle variable.
+
+### 3. Booléens (boolean)
+
+L'objet Booléen en javascript est déclaré de cette façon:
+```js
+let isConnected = New Boolean([valeur]);
+```
+Décortiquons ce bout de code : 
+
+New représente l'instruction, Boolean l'objet devant être créé, on constate la présence du constructeur () il indique que l'objet devant être créé doit recevoir un paramètre pour être construit en l'occurence [valeur], cette valeur peut recevoir ``true`` (vrai) ou ``false`` (faux) qui sont des valeurs booléennes, il est possible d'y insérer d'autres valeurs, ces dernières seront alors converties en valeur booléennes. Par exemple: null, undefined, 0, -0, ou une chaîne de caractère vide " ", sera convertie en false. Si la valeur insérée est valide, par exemple une chaîne de caractère telle que "Salut" elle sera convertie en true. 
+
+Ma variable isConnected a pour but de vérifier si mon utilisateur est connecté ou non. Si il est connecté, la valeur attritubée sera ``true``, si pas elle sera ``false``. Un booléen ne reçoit que ces deux valeurs "vrai" ou "faux". Elle permet de performer des actions spécifique en vérifiant si l'état de cette variable est définie sur true ou false.
+
+Par exemple, si mon utilisateur est connecté, je peux afficher son profil sur le client, si non, le client renvoit vers la page de connexion ou d'enregistrement. Les booléens sont particulièrement utiles lorsque vous utiliserez les méthodes de conditions telles que if/else ou switch case (que nous aborderons plus loin dans le cours).
+
+[:arrow_up: Revenir au top](#table-des-matières)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
@@ -117,4 +155,4 @@ Nous obtiendrons dans notre console :
 
 > Cours original: Julie Vanderbyse
 >
-> Modification: Lucas Ielli 
+> Modification: Lucas Ielli
