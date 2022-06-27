@@ -11,9 +11,10 @@
   - [La syntaxe](#la-syntaxe)
   - [Les types de variables](#les-types-de-variables)
     - [1. Chaine de caractères (string)](#1-chaine-de-caractères-string)
-  - [2. Les nombres (number)](#2-les-nombres-number)
-  - [3. Booléens (boolean)](#3-booléens-boolean)
-  - [4. Tableaux (array)](#4-tableaux-array)
+    - [2. Les nombres (numbers)](#2-les-nombres-numbers)
+    - [3. Booléens (booleans)](#3-booléens-booleans)
+    - [4. Tableaux (arrays)](#4-tableaux-arrays)
+    - [5. Objets (objects)](#5-objets-objects)
 
 ## À propos de JavaScript ?
 
@@ -115,7 +116,7 @@ Nous obtiendrons dans notre console :
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-### 2. Les nombres (number)
+#### 2. Les nombres (numbers)
 
 Grâce aux nombres vous pourrez réaliser un tas d'opérations utiles à votre application, paginations, boucles de rendu, calculs... Pas de panique, il ne faut pas être bon en math pour réaliser ces opérations, Javascript le fait pour vous, du moment où vous utilisez la bonne syntaxe afin de lui indiquer le travail qu'il a à effectuer. 
 
@@ -134,7 +135,7 @@ Observez bien la différence entre les deux types de variables, pour réaliser l
 
 Lorsque ma variable est typée "number" je peux réaliser des opérations mathématiques et obtenir un résultat cohérent. Si ma variable chaîne de caractères contenant des nombres je ne pourrais pas réaliser d'opérations en dehors de la concaténation. Gardez cela à l'esprit quand vous créez une nouvelle variable.
 
-### 3. Booléens (boolean)
+#### 3. Booléens (booleans)
 
 L'objet Booléen en javascript est déclaré de cette façon:
 ```js
@@ -142,7 +143,7 @@ let isConnected = New Boolean([valeur]);
 ```
 Décortiquons ce bout de code : 
 
-``New`` représente l'instruction, Boolean l'objet devant être créé, on constate la présence du constructeur () il indique que l'objet devant être créé doit recevoir un paramètre pour être construit en l'occurence [valeur], cette valeur peut recevoir ``true`` (vrai) ou ``false`` (faux) qui sont des valeurs booléennes, il est possible d'y insérer d'autres valeurs, ces dernières seront alors converties en valeur booléennes. Par exemple: null, undefined, 0, -0, ou une chaîne de caractère vide " ", sera convertie en false. Si la valeur insérée est valide, par exemple une chaîne de caractère telle que "Salut" elle sera convertie en true. 
+``New`` représente l'instruction, ``Boolean`` l'objet devant être créé, on constate la présence du constructeur () il indique que l'objet devant être créé doit recevoir un paramètre pour être construit en l'occurence [valeur], cette valeur peut recevoir ``true`` (vrai) ou ``false`` (faux) qui sont des valeurs booléennes, il est possible d'y insérer d'autres valeurs, ces dernières seront alors converties en valeur booléennes. Par exemple: null, undefined, 0, -0, ou une chaîne de caractère vide " ", sera convertie en false. Si la valeur insérée est valide, par exemple une chaîne de caractère telle que "Salut" elle sera convertie en true.
 
 Ma variable isConnected a pour but de vérifier si mon utilisateur est connecté ou non. Si il est connecté, la valeur attritubée sera ``true``, si pas elle sera ``false``. Un booléen ne reçoit que ces deux valeurs "vrai" ou "faux". Elle permet de performer des actions spécifique en vérifiant si l'état de cette variable est définie sur true ou false.
 
@@ -150,18 +151,18 @@ Par exemple, si mon utilisateur est connecté, je peux afficher son profil sur l
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-### 4. Tableaux (array)
+#### 4. Tableaux (arrays)
 
 Les tableaux (ou Arrays) sont des conteneurs plus structurés que de simples variables. Une variable ne peut contenir qu'une information à la fois, un tableau peut en contenir plusieurs. De ce fait pour chaque information contenue dans un tableau, il lui est attribué un indice. Afin de pouvoir facilement récupérer l'information spécifique dont nous avons besoin dans ce tableau. Le premier élément d'un tableau est attribué à l'**indice 0**, le second à l'indice 1, le troisième à l'indice 2, etc...
 
 **Veillez toujours à garder à l'esprit que le premier élément d'un tableau débute à 0.**
 
-Le tableau est un élément essentiel du langage, il permet de récupérer, stocker et manipuler facilement les données. Pour définir le type tableau il faut indiquer à javascript que vous souhaiter créer un nouveau tableau, il existe plusieurs façon de le faire: 
+Le tableau est un élément essentiel du langage, il permet de récupérer, stocker et manipuler facilement les données. Pour définir le type tableau il faut indiquer à JavaScript que vous souhaitez créer un nouveau tableau, il existe plusieurs façon de le faire :
 
 ```js
 let studentArray = New Array;
 ``` 
-Dans cet exemple nous déclarons la variable studentArray et l'attribuons à "New Array;" new représente une instruction (nouveau), et Array l'objet que nous voulons créé. Il s'agit ici d'un objet global de type Array (tableau). 
+Dans cet exemple nous déclarons la variable studentArray et l'attribuons à ``New Array;``. ``New`` représente une instruction (nouveau), et ``Array`` l'objet que nous voulons créer. Il s'agit ici d'un objet global de type Array (tableau). 
 
 ```js
 let studentArray = [];
@@ -198,6 +199,10 @@ Propriétés et méthodes :
 Les tableaux possèdent de nombreuses méthodes et propriétés, comme la propriété ``length`` qui permet de calculer le nombre d'éléments présents dans le tableau. Grâce à cette propriété nous pourrons utiliser des boucles (il s'agit ici d'une méthode) permettant de créer des opérations sur chacun des éléments du tableau, ceci nous est permis grâce aux boucles ``for`` qui utilisent l'indice courant du tableau ainsi que sa longueur pour réaliser des opérations sur chacun des éléments du tableau jusqu'à sa fin grâce à la propriété ``length``. Nous verrons à quoi correspondent les boucles et leur intérêt plus tard.
 
 **Retenez que les tableaux sont des éléments essentiels à la création de sites et d'applications dynamiques.**
+
+[:arrow_up: Revenir au top](#table-des-matières)
+
+#### 5. Objets (objects)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
