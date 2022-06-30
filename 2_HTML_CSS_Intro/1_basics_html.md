@@ -31,6 +31,7 @@
   - [La balise `<li>`](#la-balise-li)
 - [Encore quelques balises](#encore-quelques-balises)
 - [Pour allez plus loin](#pour-allez-plus-loin)
+- [Questionnaire HTML](#questionnaire-html)
 
 ## Qu'est ce que le HTML ?
 
@@ -420,6 +421,10 @@ Balises de style :
 [:arrow_up: Revenir au top](#table-des-matières)
 
 Phew! Ca en fait des nouvelles choses à assimiler. Tout va bien??
+
+## Questionnaire HTML
+
+Alors si tout va bien, un petit [questionnaire !](https://forms.gle/MFhdcrrkveThnQiRA)
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
 

@@ -20,6 +20,7 @@ Avant de vous lancer dans l'apprentissage des langages de programmation, il est 
   - [Site statique](#site-statique)
   - [Site dynamique](#site-dynamique)
 - [Les outils de développement](#les-outils-de-développement)
+- [Questionnaire introduction au web](#questionnaire-introduction-au-web)
 - [Conclusion](#conclusion)
 
 ## L'histoire du Web en bref
@@ -184,6 +185,12 @@ Afin de faciliter le développement de vos applications, les différents navigat
 Je vous renvois à [cet article agrémenté de vidéos de KhanAcademy](https://fr.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/using-the-browser-developer-tools) reprenant ce sujet, veillez à le lire et à regarder attentivement les vidéos, faites-en bon usage!
 
 Dans les outils indispensables vous allez avoir besoin d'un éditeur de texte, mais pas n'importe lequel. En développement Web nous appelons ceux-ci IDE, en anglais Integrated Development Environment, et en français Environnement de développement intégré. Vous avez beaucoup de choix mais je vous conseille [Visual Studio Code](https://code.visualstudio.com/). Tout le long de la formation vous apprendrez à l'utiliser et je vous montrerai quelques astuces.
+
+[:arrow_up: Revenir au début](#table-des-matières)
+
+## Questionnaire introduction au web
+
+[Par ici les questions !](https://forms.gle/cyMDoiKRDMx58n916)
 
 [:arrow_up: Revenir au début](#table-des-matières)
 
