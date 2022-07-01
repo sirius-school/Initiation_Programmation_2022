@@ -204,6 +204,24 @@ Les tableaux possèdent de nombreuses méthodes et propriétés, comme la propri
 
 #### 5. Objets (objects)
 
+Retenez que Javascript est un langage **orienté objet**. Tout est construit à partir d'un objet (variables, méthodes, fonctions...). Les objets possèdent des propriétés, on peut les comparer aux objets de la vrai vie. Par exemple je peux créer un objet Chien qui possédera comme propriété une race, une taille, un poids, une couleur de pelage, un âge, un nom. À ces propriétés viennent se joindre les valeurs correspondante au chien. Prenons comme exemple: 
+
+```js
+const chat = { 
+        nom: "Lucky", 
+        age: 4, 
+        poids: "6", 
+        couleur: "Tigré Gris"
+};
+```
+
+Les objets possèdent des propriétés et des méthodes qui leur sont propres. Les objets sont une notion complexe mais indispensable, nous verrons plus tard dans le cours et en plus en détails une introduction à la programmation orienté objet. Pour l'instant retenez simplement la manière dont un objet se présente (comme ci dessus, par exemple, chaque valeur peut correspondre à un type, on peut donc retrouver des chaînes de caractères, des nombres, des tableaux ou d'autres objets au sein même des objets). Pour accéder aux valeurs des propriétés des objets vous pouvez simplement procéder de cette façon :
+
+```js
+console.log(chat.nom);
+```
+Résultat de la console : ``"Lucky"``.
+
 [:arrow_up: Revenir au top](#table-des-matières)
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
