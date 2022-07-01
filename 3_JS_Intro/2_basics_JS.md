@@ -15,6 +15,8 @@
     - [3. Booléens (booleans)](#3-booléens-booleans)
     - [4. Tableaux (arrays)](#4-tableaux-arrays)
     - [5. Objets (objects)](#5-objets-objects)
+- [Les opérateurs (operands)](#les-opérateurs-operands)
+- [Conclusion](#conclusion)
 
 ## À propos de JavaScript ?
 
@@ -223,6 +225,45 @@ console.log(chat.nom);
 Résultat de la console : ``"Lucky"``.
 
 [:arrow_up: Revenir au top](#table-des-matières)
+
+## Les opérateurs (operands)
+
+Les opérateurs permettent de manipuler les variables. Nous avons déjà vu dans les exemples plus haut qu'il était possible d'additionner des nombres et de concaténer (mettre à la suite) des chaînes de caractères, mais il existe une multitude d'autres opérateurs. 
+
+La [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Expressions_and_Operators) possède une liste de ces opérateurs, dont je vais vous donner quelques exemples, ils sont essentiels à connaître par coeur pour le bon fonctionnement des manipulations que vous souhaitez réaliser sur vos données.
+
+``+`` ➡ Addition<br>
+``-`` ➡ Soustraction<br>
+``*`` ➡ Multiplication<br>
+``/`` ➡ Division<br>
+``=`` ➡ Affectation/Assignation<br>
+``%`` ➡ Modulo (retourne le reste du nombre de gauche divisé par le nombre de droite par exemple 5/2 retournera 1, 4/2 retournera 0. Le modulo permet entre autre donc de vérifier si oui ou non le chiffre de gauche est divisible par 2)<br>
+``<`` ➡ Le nombre de gauche est plus petit que le nombre de droite<br>
+``>`` ➡ Le nombre de gauche est plus grand que le nombre de droite<br>
+``>=`` ➡ Le nombre de gauche est plus grand ou égal au nombre de droite<br>
+``<=`` ➡ Le nombre de droite est plus petit ou égal au nombre de droite<br>
+``++`` ➡ Incrémentation (on augmente le nombre de 1)<br>
+``--`` ➡ Décrémentation (on diminue le nombre de 1)<br>
+``||`` ➡ Opérateur de comparaison "ou"<br>
+``&&`` ➡ Opérateur de comparaison "et"<br>
+``===`` ➡ Opérateur de comparaison "strictement égal à"<br>
+``==`` ➡ Opérateur de comparaison "égal à"<br>
+``!==`` ➡ Opérateur de comparaison "strictement différent de"<br>
+``!=`` ➡ Opérateur de comparaison "différent de"<br>
+``+=`` ➡ Affectation après addition<br>
+``-=`` ➡ Affectation après soustraction<br>
+``/=`` ➡ Affectation après division<br>
+``*=`` ➡ Affectation après multiplication<br>
+
+[:arrow_up: Revenir au top](#table-des-matières)
+
+## Conclusion
+
+Toute cette théorie n'est pas à retenir par coeur, mais vous devez savoir que cela existe et quand vous avez besoin vous pouvez toujours revenir sur ce cours ou simplement "googler".
+
+![](https://media.giphy.com/media/xePnbnJiehT1e/giphy.gif)
+
+[:arrow_right: Suite du cours : *les fonctions*](3_functions.md)
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
 
