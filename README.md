@@ -61,7 +61,7 @@ Il y a une pause **10h30** et **14h30**, de **15 minutes** chacune.<br>
 Tu auras une heure de temps de midi de **12h00** à **13h00** ce qui te laissera largement le temps d'aller chercher quelque chose si commme moi tu ne prends pas le temps de faire des tartines 😋<br>
 Préviens ton formateur pour tout motif d'absence, si tu reçois un appel important, si tu souhaites prendre l'air ou tout simplement si tu dois te rendre aux toilettes.
 
-### Soit poli et courtois, sinon le ban sera pour toi. <img src="https://c.tenor.com/Gh9SFp64h8wAAAAC/banned-and-you-are-banned.gif" alt="Ban hammer !" width="64px">
+### Soit poli et courtois, sinon le ban sera pour toi. <img src="https://c.tenor.com/Gh9SFp64h8wAAAAC/banned-and-you-are-banned.gif" alt="Ban hammer !" width="64">
 - Respecte tes condisciples ainsi que tous les membres de Sirius et du Monde des Possibles 🤝🤲
 - Si tu as problème, quel qu'il soit, n'hésites pas à venir en parler à un membre de Sirius.
 - **Mets ton téléphone en silencieux !** 📴📵
