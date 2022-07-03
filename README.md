@@ -57,13 +57,13 @@ Toute absence devra être justifiée. Si tu es absent, envoie un email à ton fo
 
 ### Les pauses
 
-Il y a une pause **10h30** et **14h30**, de **15 minutes** chacune.<br>
+Il y a une pause à **10h30** et **14h30**, de **15 minutes** chacune.<br>
 Tu auras une heure de temps de midi de **12h00** à **13h00** ce qui te laissera largement le temps d'aller chercher quelque chose si commme moi tu ne prends pas le temps de faire des tartines 😋<br>
 Préviens ton formateur pour tout motif d'absence, si tu reçois un appel important, si tu souhaites prendre l'air ou tout simplement si tu dois te rendre aux toilettes.
 
 ### Soit poli et courtois, sinon le ban sera pour toi. <img src="https://c.tenor.com/Gh9SFp64h8wAAAAC/banned-and-you-are-banned.gif" alt="Ban hammer !" width="64">
 - Respecte tes condisciples ainsi que tous les membres de Sirius et du Monde des Possibles 🤝🤲
-- Si tu as problème, quel qu'il soit, n'hésites pas à venir en parler à un membre de Sirius.
+- Si tu as un problème, quel qu'il soit, n'hésites pas à venir en parler à un membre de Sirius.
 - **Mets ton téléphone en silencieux !** 📴📵
 - Évite les débats sans fin comme la politique, la religion et autres. Chacun à ses croyances et vous devez les respecter.
 - Sois ponctuel, comme ça tu ne rateras pas une miette du cours et tu ne feras pas attendre tes condisciples ⌚
@@ -78,9 +78,9 @@ Dans le but d'être toujours actif dans ton apprentissage, il est plus que conse
 
 Va lire des articles de code, même si tu comprends pas la moitié c'est toujours utile car ça éveille ta curiosité et de toute façon tu retiendras forcément quelque chose qui pourrait s'avérer utile un jour. Et si tu souhaites partager ta découverte et ce que tu as appris, vient en parler à ton formateur et nous organiserons une présentation devant la classe.
 
-N'hésite pas à jeter un oeil aux autres librairies/frameworks JavaScript ou même aux autres langages. Il existe beaucoup de langages différents qui te permettent de faire d'autre choses. Prends le temps de regarder les sites webs qui référencent les créations de milliers de développeurs. Même si ce n'est pas encore de ton niveau, ça vaut toujours la peine de regarder, de t'inspirer. Ce n'est pas parce que tu ne sais pas peindre comme Picasso que tu ne peux pas être inspiré par ses créations.
+N'hésite pas à jeter un oeil aux autres librairies ou frameworks JavaScript ou même aux autres langages. Il existe beaucoup de langages différents qui te permettent de faire d'autre choses. Prends le temps de regarder les sites webs qui référencent les créations de milliers de développeurs. Même si ce n'est pas encore de ton niveau, ça vaut toujours la peine de regarder, de t'inspirer. Ce n'est pas parce que tu ne sais pas peindre comme Picasso que tu ne peux pas être inspiré par ses créations.
 
-Tu trouveras quelques liens utiles dans le dossier [ressources](./Resources/)
+Tu trouveras quelques liens utiles dans le dossier [ressources](./Resources/).
 
 ### Présentation d'une veille
 
@@ -93,10 +93,10 @@ Pour la première, c'est moi qui vais vous la donner pour que vous compreniez ce
 
 <img src="./Resources/Images/fun.png" alt="Board game">
 
-Place au fun !
+**Place au fun !**
 
 ### Présentation
-Commençons par une petite présentation, je vais donner à chacun un post-it sur lequel vous allez écrire en toute discrétion et sans montrer aux autres apprenants, **2 verités et un mensonge** sur vous. Ensuite chacun votre tour vous vous léverez et direz à haute voix votre prénom et vos 3 phrases. Les autres devront deviner laquelle de ces 3 phrases est un mensonge 😜
+Commençons par une petite présentation, je vais donner à chacun un post-it sur lequel vous allez écrire en toute discrétion et sans montrer aux autres apprenants, **2 vérités et un mensonge** sur vous. Ensuite chacun votre tour vous vous lèverez et direz à haute voix votre prénom et vos 3 phrases. Les autres devront deviner laquelle de ces 3 phrases est un mensonge 😜
 
 ### Les points communs
 
