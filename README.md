@@ -80,6 +80,37 @@ Va lire des articles de code, même si tu comprends pas la moitié c'est toujour
 
 N'hésite pas à jeter un oeil aux autres librairies/frameworks JavaScript ou même aux autres langages. Il existe beaucoup de langages différents qui te permettent de faire d'autre choses. Prends le temps de regarder les sites webs qui référencent les créations de milliers de développeurs. Même si ce n'est pas encore de ton niveau, ça vaut toujours la peine de regarder, de t'inspirer. Ce n'est pas parce que tu ne sais pas peindre comme Picasso que tu ne peux pas être inspiré par ses créations.
 
+Tu trouveras quelques liens utiles dans le dossier [ressources](./Resources/)
+
+### Présentation d'une veille
+
+Comme dit plus haut, il va falloir présenter des sujets de veilles à tout le monde. Ce petit exercice à pour but de t'apprendre à réaliser une bonne veille, une bonne présentation et à prendre la parole devant tes camarades. Cela fait partie des soft-skills que tu vas développer tout au long de la formation.<br>
+En effet dans une entreprise il est fort à parier qu'on te demandera d'expliquer de façon simple ce que tu as réaliser ou ce que tu vas réaliser pour un projet client, il est donc important de savoir expliquer aussi bien à tes collègues qu'au client lui-même.
+
+Pour la première, c'est moi qui vais vous la donner pour que vous compreniez ce qu'il faut faire, mais par après, ça sera à toi de t'y coller. Nous déciderons plus tard à quelle fréquence nous ferons ces présentations.
+
+## Activité brise-glace
+
+<img src="./Resources/Images/fun.png" alt="Board game">
+
+Place au fun !
+
+### Présentation
+Commençons par une petite présentation, je vais donner à chacun un post-it sur lequel vous allez écrire en toute discrétion et sans montrer aux autres apprenants, **2 verités et un mensonge** sur vous. Ensuite chacun votre tour vous vous léverez et direz à haute voix votre prénom et vos 3 phrases. Les autres devront deviner laquelle de ces 3 phrases est un mensonge 😜
+
+### Les points communs
+
+Deuxième petit jeu pour en apprendre un peu plus sur chacun : rendez-vous sur [Miro](https://miro.com/welcomeonboard/SlRERmdmTTh3bnFpWFZCU1JtWkQxbUpNajFhcVoyaWlzOU9EYmVUc0R1TzhYNGFGMmx6U0laU1QwVUhMQldGYXwzMDc0NDU3MzY2MzQ0MDYxMjQz?share_link_id=736038607182) ce magnifique tableau blanc en ligne va te servir à écrire :
+  - Ton nom et prénom en titre.
+  - Quelques-unes de tes passions. Si tu n'as pas assez de place réduit la taille de la police 😉
+  - Et une photo de toi ou de quelque chose que tu aimes.
+
+Pour la suite, je demanderai à tout le monde de lire le "post-it Miro" des autres et si vous avez des points communs de les relier 😀
+
+### Charte de classe
+
+Si on a le temps aujourd'hui pour ce premier jour de formation, nous pourrions prendre quelques minutes pour écrire 3 mots-clés que tu considères important au bon déroulement des cours. Par exemple, tu peux dire que tu as besoin de calme ou bien de pouvoir écouter de la musique 🎵 ou encore de café ou de thé 🍵
+
 [:arrow_up: Revenir au début](#sirius-school-2022---initiation-à-la-programmation)
 
 > Original : [Jeremy Scala](https://github.com/scalajeremy)
