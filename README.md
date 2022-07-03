@@ -1,7 +1,7 @@
 <img src="./Resources/Images/SiriusLogo.png" width="172" alt="Sirius School Logo">
 
 # Sirius School 2022 - Initiation à la programmation
-<img src="https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif" width="96px" alt="Hello World !">
+<img src="https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif" width="96" alt="Hello World !">
 
 ## Introduction
 
