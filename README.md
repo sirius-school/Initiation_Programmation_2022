@@ -53,7 +53,7 @@ Voici quelques points de règles à respecter pour que ta formation se passe le 
 
 Tu devras être présent du lundi au vendredi de **9h00** à **16h00**.
 
-Toute absence devra être justifiée. Si tu es absent, envoie un email à ton formateur pour le prévenir le plus tôt possible : lucas.ielli@possibles.org en copie le coordinateur : kevin.cocco@possibles.org et l'éducatrice : laetitiagrosemans@possibles.org
+Toute absence devra être justifiée. Si tu es absent, envoie un email à ton formateur pour le prévenir le plus tôt possible : lucas.ielli@possibles.org en copie le coordinateur : kevincocco@possibles.org et l'éducatrice : laetitiagrosemans@possibles.org
 
 ### Les pauses
 
