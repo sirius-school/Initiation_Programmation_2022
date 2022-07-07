@@ -32,6 +32,7 @@
   - [display: inline-block](#display-inline-block)
   - [display: none](#display-none)
 - [L'auto-complete de VSCode](#lauto-complete-de-vscode)
+- [Exercices !](#exercices-)
 
 ## Qu'est ce que le CSS ?
 
@@ -418,6 +419,12 @@ Permet de retirer un élement de la page. Il ne sera plus visible et ne prendra 
 ## L'auto-complete de VSCode
 
 Si vous ne savez pas exactement quelle propriété existe ou comment elle s'écrit, VSCode est là pour vous aider. En effet quand vous travaillez dans un document CSS ou HTML enregistré, VSCode détecte votre syntaxe et vous aide à compléter votre frappe.
+
+## Exercices !
+
+J'espère que vous êtes prêt?! Je suis quand même gentil je vous laisse le choix entre deux niveaux de difficulté :
+- 1er niveau : [Maquette Discord](https://github.com/sirius-school/Initiation-integration-2022/blob/main/1-html-css-debutant/11-exercice-css-maquette-discord.md?fbclid=IwAR1XuT3QtdPe0FiUgXLqtAyTI6H9J2RXqqNyWi9LSkvnzWbvQG-e_0-EU28)
+- 2e niveau : [Maquette Pomme](https://github.com/sirius-school/Initiation-integration-2022/blob/main/1-html-css-debutant/14-exercice-css-maquette-pomme.md?fbclid=IwAR0X3jyyr1Y0yFSqrDzlE0YE-2jlH09pAMlqETaAqqYJzfcySkEKgZNARTA)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
