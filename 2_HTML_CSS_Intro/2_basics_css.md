@@ -425,6 +425,7 @@ Si vous ne savez pas exactement quelle propriété existe ou comment elle s'écr
 J'espère que vous êtes prêt?! Je suis quand même gentil je vous laisse le choix entre deux niveaux de difficulté :
 - 1er niveau : [Maquette Discord](https://github.com/sirius-school/Initiation-integration-2022/blob/main/1-html-css-debutant/11-exercice-css-maquette-discord.md?fbclid=IwAR1XuT3QtdPe0FiUgXLqtAyTI6H9J2RXqqNyWi9LSkvnzWbvQG-e_0-EU28)
 - 2e niveau : [Maquette Pomme](https://github.com/sirius-school/Initiation-integration-2022/blob/main/1-html-css-debutant/14-exercice-css-maquette-pomme.md?fbclid=IwAR0X3jyyr1Y0yFSqrDzlE0YE-2jlH09pAMlqETaAqqYJzfcySkEKgZNARTA)
+- 3e niveau : [Maquette Feel the Music](https://github.com/sirius-school/Initiation-integration-2022/blob/main/1-html-css-debutant/20-exercice-css-maquette-feelthemusic.md?fbclid=IwAR2UCBHOq97N_I2heDJjv8OIciz8PpcoJRts1ym8wVxJDbNfRhdTw-8EdwE)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
