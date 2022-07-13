@@ -101,7 +101,7 @@ Comme nous l'avons vu précédement ma variable est préfixée ``let`` ou ``cons
 
 Imaginons que je souhaite afficher les valeurs de ces variables dans ma console:
 ```js
-console.log(firstname + "," + age + "," + job);
+console.log(firstname + ", " + age + ", " + job);
 ```
 Le résultat affiché dans la console sera :
 ``Lucas, 29 ans, Web Coach en Sirius !``
