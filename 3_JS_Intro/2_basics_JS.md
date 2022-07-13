@@ -91,11 +91,24 @@ Javascript est langage dit "typé", la bonne pratique veut que pour chaque nouve
 #### 1. Chaine de caractères (string)
 Une chaîne de caractère représente un texte, elle peut contenir l'ensemble des caractères reconnu de votre clavier DONT des chiffres. Les chiffres seront ici interprêtés sous forme de caractère et ne pourront pas être utilisé comme une variable typée nombre, vous ne pourrez donc pas l'utiliser pour effectuer une opération. Pour définir une variable en tant que chaîne de caractère nous utilisons les guillements ``" "``. Retenez que ``"1"`` est une chaîne de caractère si j'additione la chaîne de caractère ``"2"``, je n'obtiendrai **pas** 3 mais bien ``"12"``. Cela n'est même pas une addition mais une **concaténation**, vous verrez souvent ce terme qui est important à connaitre.
 
-Plusieurs exemples de chaînes de caractère :
+Dans l'exemple ci-dessous nous déclarons la variable ``firstname`` et l'attribuons à ``new String()``. ``new`` représente une instruction (nouveau), et ``String`` l'objet que nous voulons créer. Il s'agit ici d'un objet global de type ``String`` (chaîne de caractère). Les **parenthèses** qui suivent ``String`` contiendront une donnée et celle-ci devra être entourée de **guillements** :
+
+```js
+const firstname = new String("Lucas");
+```
+Attention le résultat dans votre console sera ``String {'Lucas'}`` détaillé avec un index sur chacune des lettres de votre chaîne de caractère avec une valeur primitive ``"Lucas"``.
+
+Vous pouvez préciser le type de variable que vous souhaitez :
+```js
+const firstname = String("Lucas");
+```
+Evidemment ceci ``const firstname = Number("Lucas");`` ne fonctionnera pas et le résultat sera **NaN** (not a number).
+
+Plusieurs exemples de chaînes de caractère déclarés de façons plus "simples" mais moins détaillées :
 ```js
 const firstname = "Lucas";
-let age = "29 ans";
-let job = "Web Coach en Sirius !";
+let age = '29 ans';
+let job = `Web Coach en Sirius !`;
 ```
 Comme nous l'avons vu précédement ma variable est préfixée ``let`` ou ``const`` en fonction de sa portée, le choix du nom est le plus explicite possible (firstname), elle est assignée grâce au signe ``=`` déclarée de type chaîne de caractère grâce aux guillemets ``" "``, et pour terminé, comme à chaque fin de déclaration le ``;`` qui indique au navigateur de passer à la ligne suivante. 
 
@@ -106,9 +119,9 @@ console.log(firstname + ", " + age + ", " + job);
 Le résultat affiché dans la console sera :
 ``Lucas, 29 ans, Web Coach en Sirius !``
 
-Cette opération est une concaténation. Le ``+`` est l'opérateur qui permet aux chaînes de caractères de se suivrent. Si vous êtes attentifs vous aurez remarqué que j'ai ajouté des virgules entourées de guillements ``","`` sans ça le résultat serait "Lucas29 ansWeb Coach en Sirius !"
+Cette opération est une concaténation. Le ``+`` est l'opérateur qui permet aux chaînes de caractères de se suivrent. Si vous êtes attentifs vous aurez remarqué que j'ai ajouté des virgules et des espaces entourées de guillements ``", "`` sans ça le résultat serait "Lucas29 ansWeb Coach en Sirius !"
 
-Plutôt que de concaténer, il est possible d'utiliser les "backticks" ``" ` "`` et d'insérer la/les variable(s) directement dans la phrase. Comme ceci :
+Plutôt que de concaténer, il est possible d'utiliser la syntaxe des "backticks" ``" ` "`` et d'insérer la/les variable(s) directement dans la phrase. Comme ceci :
 
 ```js
 console.log(`Je m'appelle ${firstname}, j'ai ${age} et je suis ${job}`);
@@ -120,36 +133,64 @@ Nous obtiendrons dans notre console :
 
 #### 2. Les nombres (numbers)
 
-Grâce aux nombres vous pourrez réaliser un tas d'opérations utiles à votre application, paginations, boucles de rendu, calculs... Pas de panique, il ne faut pas être bon en math pour réaliser ces opérations, Javascript le fait pour vous, du moment où vous utilisez la bonne syntaxe afin de lui indiquer le travail qu'il a à effectuer. 
+Grâce aux nombres vous pourrez réaliser un tas d'opérations utiles à votre application, paginations, boucles de rendu, calculs... Pas de panique, il ne faut pas être bon en math pour réaliser ces opérations, Javascript le fait pour vous, du moment où vous utilisez la bonne syntaxe afin de lui indiquer le travail qu'il a à effectuer.
 
-Exemple de variable typée number :
+Il est possible de déclarer une variable typée Number comme ceci :
+
+```js
+let firstNumber = new Number(1);
+let secondNumber = Number(2);
+```
+
+Autre exemple simplifié de variable typée number :
 ```js
 let firstNumber= 1; 
-let secondNumber = 2; 
+let secondNumber = 2;
 ```
 Imaginons que je souhaite afficher le résultat de l'addition de ces deux nombres :
 ```js
 console.log(firstNumber + secondNumber);
 ```
-Le résultat (output) de cette opération sera ``3`` 
+Le résultat (output) de cette opération sera ``3``.
 
 Observez bien la différence entre les deux types de variables, pour réaliser l'opération (une addition en l'occurence) j'ai du indiquer à ma variable qu'il s'agissait d'un chiffre, pour ce faire il suffit tout simplement d'écrire vos nombres dépourvu de guillemets. 
 
 Lorsque ma variable est typée "number" je peux réaliser des opérations mathématiques et obtenir un résultat cohérent. Si ma variable chaîne de caractères contenant des nombres je ne pourrais pas réaliser d'opérations en dehors de la concaténation. Gardez cela à l'esprit quand vous créez une nouvelle variable.
 
+Dernière chose que vous devez savoir, il existe deux types de valeurs pour une variable ``Number`` :
+
+```js
+let firstNumber = 10; // Integer value
+let secondNumber = 1.25; // Float value
+```
+
 #### 3. Booléens (booleans)
 
-L'objet Booléen en javascript est déclaré de cette façon:
+L'objet Booléen en javascript est déclaré de cette façon :
 ```js
-let isConnected = New Boolean([valeur]);
+let isConnected = new Boolean(false *or* true);
 ```
 Décortiquons ce bout de code : 
 
-``New`` représente l'instruction, ``Boolean`` l'objet devant être créé, on constate la présence du constructeur () il indique que l'objet devant être créé doit recevoir un paramètre pour être construit en l'occurence [valeur], cette valeur peut recevoir ``true`` (vrai) ou ``false`` (faux) qui sont des valeurs booléennes, il est possible d'y insérer d'autres valeurs, ces dernières seront alors converties en valeur booléennes. Par exemple: null, undefined, 0, -0, ou une chaîne de caractère vide " ", sera convertie en false. Si la valeur insérée est valide, par exemple une chaîne de caractère telle que "Salut" elle sera convertie en true.
+``new`` représente l'instruction, ``Boolean`` l'objet devant être créé, on constate la présence du constructeur () il indique que l'objet devant être créé doit recevoir un paramètre pour être construit en l'occurence il peut recevoir ``true`` (vrai) ou ``false`` (faux) qui sont des valeurs booléennes, il est possible d'y insérer d'autres valeurs, ces dernières seront alors converties en valeurs booléennes. Par exemple: *null, undefined, 0, -0, ou une chaîne de caractère vide " "*, sera convertie en ``false``. Si la valeur insérée est valide, par exemple une chaîne de caractère telle que "Salut" elle sera convertie en ``true``.
 
-Ma variable isConnected a pour but de vérifier si mon utilisateur est connecté ou non. Si il est connecté, la valeur attritubée sera ``true``, si pas elle sera ``false``. Un booléen ne reçoit que ces deux valeurs "vrai" ou "faux". Elle permet de performer des actions spécifique en vérifiant si l'état de cette variable est définie sur true ou false.
+Ma variable ``isConnected`` a pour but de vérifier si mon utilisateur est connecté ou non. Si il est connecté, la valeur attritubée sera ``true``, si pas elle sera ``false``. Un booléen ne reçoit que ces deux valeurs "vrai" ou "faux". Elle permet de performer des actions spécifique en vérifiant si l'état de cette variable est définie sur true ou false.
 
-Par exemple, si mon utilisateur est connecté, je peux afficher son profil sur le client, si non, le client renvoit vers la page de connexion ou d'enregistrement. Les booléens sont particulièrement utiles lorsque vous utiliserez les méthodes de conditions telles que if/else ou switch case (que nous aborderons plus loin dans le cours).
+Par exemple, si mon utilisateur est connecté, je peux afficher son profil sur le client, si non, le client renvoit vers la page de connexion ou d'enregistrement. Les booléens sont particulièrement utiles lorsque vous utiliserez les méthodes de conditions telles que ``if/else`` ou ``switch case`` (que nous aborderons plus loin dans le cours).
+
+Une autre manière de déclarer le type de votre variable :
+
+```js
+let isConnected = Boolean();
+```
+Attention si vous ne précisez pas de valeur dans les parenthèses, la valeur par défaut sera **false**.
+
+Une façon simplifiée de déclarer un booléen :
+
+```js
+let isConnected = true;
+let isConnected = false;
+```
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
@@ -162,14 +203,20 @@ Les tableaux (ou Arrays) sont des conteneurs plus structurés que de simples var
 Le tableau est un élément essentiel du langage, il permet de récupérer, stocker et manipuler facilement les données. Pour définir le type tableau il faut indiquer à JavaScript que vous souhaitez créer un nouveau tableau, il existe plusieurs façon de le faire :
 
 ```js
-let studentArray = New Array;
+let studentArray = new Array();
 ``` 
-Dans cet exemple nous déclarons la variable studentArray et l'attribuons à ``New Array;``. ``New`` représente une instruction (nouveau), et ``Array`` l'objet que nous voulons créer. Il s'agit ici d'un objet global de type Array (tableau). 
+Dans cet exemple nous déclarons la variable studentArray et l'attribuons à ``new Array();``. ``new`` représente une instruction (nouveau), et ``Array`` l'objet que nous voulons créer. Il s'agit ici d'un objet global de type Array (tableau). Les **parenthèses** qui suivent ``Array`` contiendront les données que tu dois séparer d'une **virgule** sans oublier d'utiliser la bonne syntaxe selon le type de variable que tu veux stocker dans ce tableau.
+<br>
+Vous pouvez ici aussi préciser le type de variable :
+
+```js
+let secondArray = Array();
+```
 
 ```js
 let studentArray = [];
 ``` 
-Dans celui-ci la variable est déclarée directement avec des crochets qui correspondent à la synthaxe décrivant un tableau vide. 
+Dans celui-ci la variable est déclarée directement avec des crochets qui correspondent à la syntaxe décrivant un tableau vide. 
 
 ```js
 let siriusTeamArray = ["Jeremy","Ganaëlle","Kevin","Laetitia","Lucas"];
@@ -212,7 +259,7 @@ Retenez que Javascript est un langage **orienté objet**. Tout est construit à 
 const chat = { 
         nom: "Lucky", 
         age: 4, 
-        poids: "6", 
+        poids: "6 kgs", 
         couleur: "Tigré Gris"
 };
 ```
