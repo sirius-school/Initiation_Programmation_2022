@@ -15,7 +15,9 @@
     - [3. Booléens (booleans)](#3-booléens-booleans)
     - [4. Tableaux (arrays)](#4-tableaux-arrays)
     - [5. Objets (objects)](#5-objets-objects)
+    - [6. Les constructeurs (constructors)](#6-les-constructeurs-constructors)
 - [Les opérateurs (operands)](#les-opérateurs-operands)
+- [Résumé](#résumé)
 - [Conclusion](#conclusion)
 
 ## À propos de JavaScript ?
@@ -91,7 +93,7 @@ Javascript est langage dit "typé", la bonne pratique veut que pour chaque nouve
 #### 1. Chaine de caractères (string)
 Une chaîne de caractère représente un texte, elle peut contenir l'ensemble des caractères reconnu de votre clavier DONT des chiffres. Les chiffres seront ici interprêtés sous forme de caractère et ne pourront pas être utilisé comme une variable typée nombre, vous ne pourrez donc pas l'utiliser pour effectuer une opération. Pour définir une variable en tant que chaîne de caractère nous utilisons les guillements ``" "``. Retenez que ``"1"`` est une chaîne de caractère si j'additione la chaîne de caractère ``"2"``, je n'obtiendrai **pas** 3 mais bien ``"12"``. Cela n'est même pas une addition mais une **concaténation**, vous verrez souvent ce terme qui est important à connaitre.
 
-Dans l'exemple ci-dessous nous déclarons la variable ``firstname`` et l'attribuons à ``new String()``. ``new`` représente une instruction (nouveau), et ``String`` l'objet que nous voulons créer. Il s'agit ici d'un objet global de type ``String`` (chaîne de caractère). Les **parenthèses** qui suivent ``String`` contiendront une donnée et celle-ci devra être entourée de **guillements** :
+Dans l'exemple ci-dessous nous déclarons la variable ``firstname`` et l'attribuons à ``new String()``. ``new`` représente une instruction (nouveau) qui créera une **nouvelle instance** totalement vide, et ``String`` l'objet que nous voulons créer. Il s'agit ici d'un objet global de type ``String`` (chaîne de caractère). Les **parenthèses** qui suivent ``String`` contiendront une donnée et celle-ci devra être entourée de **guillements** :
 
 ```js
 const firstname = new String("Lucas");
@@ -135,7 +137,7 @@ Nous obtiendrons dans notre console :
 
 Grâce aux nombres vous pourrez réaliser un tas d'opérations utiles à votre application, paginations, boucles de rendu, calculs... Pas de panique, il ne faut pas être bon en math pour réaliser ces opérations, Javascript le fait pour vous, du moment où vous utilisez la bonne syntaxe afin de lui indiquer le travail qu'il a à effectuer.
 
-Il est possible de déclarer une variable typée Number comme ceci :
+Il est possible de déclarer une variable typée ``Number`` comme ceci :
 
 ```js
 let firstNumber = new Number(1);
@@ -178,7 +180,7 @@ Ma variable ``isConnected`` a pour but de vérifier si mon utilisateur est conne
 
 Par exemple, si mon utilisateur est connecté, je peux afficher son profil sur le client, si non, le client renvoit vers la page de connexion ou d'enregistrement. Les booléens sont particulièrement utiles lorsque vous utiliserez les méthodes de conditions telles que ``if/else`` ou ``switch case`` (que nous aborderons plus loin dans le cours).
 
-Une autre manière de déclarer le type de votre variable :
+Une autre manière de déclarer le type de votre variable booléenne :
 
 ```js
 let isConnected = Boolean();
@@ -212,12 +214,11 @@ Vous pouvez ici aussi préciser le type de variable :
 ```js
 let secondArray = Array();
 ```
-
+Plus simplement la variable peut être déclarée directement avec des crochets qui correspondent à la syntaxe décrivant un tableau vide :
 ```js
 let studentArray = [];
-``` 
-Dans celui-ci la variable est déclarée directement avec des crochets qui correspondent à la syntaxe décrivant un tableau vide. 
-
+```
+Exemple concret :
 ```js
 let siriusTeamArray = ["Jeremy","Ganaëlle","Kevin","Laetitia","Lucas"];
 ``` 
@@ -271,6 +272,48 @@ console.log(chat.nom);
 ```
 Résultat de la console : ``"Lucky"``.
 
+Comme pour tout les types de variables vous pouvez utiliser :
+
+```js
+const chat = new Object();
+const chien = Object();
+```
+Cependant pour pouvoir assigner des propriétes et des valeurs vous devrez ajouter :
+
+```js
+chat.nom = "Lucky";
+chat.age = 4;
+chien.nom = "Rex";
+chien.age = 10;
+```
+Si vous avez remarqué grâce à ça j'ai réussi à assigner et je peux même réassigner une valeur aux propriétés de l'objet ``chat`` et ``chien`` alors que ma variable est une **constante (const)** 😁
+
+[:arrow_up: Revenir au top](#table-des-matières)
+
+#### 6. Les constructeurs (constructors)
+
+Vous les avez vu plus haut pour chaque type de variable lorsque vous utilisez :
+
+```js
+String()
+Number()
+Boolean()
+Array()
+Object()
+```
+Il y a longtemps JavaScript nécessitait l'utilisation des constructeurs avant l'arrivée des **valeurs primitives** :
+
+```js
+let string = "";
+let number = 0;
+let boolean = true; // Or false
+let array = [];
+let object = {
+  propriété: valeur,
+};
+// Attention ne réutilisez pas les noms de variables ci-dessus !
+```
+
 [:arrow_up: Revenir au top](#table-des-matières)
 
 ## Les opérateurs (operands)
@@ -303,6 +346,35 @@ La [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Expressions_
 ``*=`` ➡ Affectation après multiplication<br>
 
 [:arrow_up: Revenir au top](#table-des-matières)
+
+## Résumé
+
+Les noms de variables ci-dessous ne doivent **pas être réutilisés** !
+<br>
+D'une part parce qu'ils ne décrivent pas ce qu'ils font ou feront. D'autre part parce que certains sont des **mots-clés déjà définis** par JavaScript !
+
+```js
+// Constuctors and new
+let stringNew = new String(""); 
+let numberNew = new Number(); 
+let booleanNew = new Boolean();  // Default value : false
+let arrayNew = new Array(); 
+let objectNew = new Object();
+
+// Constuctors
+let string = String(""); 
+let number = Number(); 
+let boolean = Boolean();  // Default value : false
+let array = Array(); 
+let object = Object(); 
+
+// Simplified version, primitive value.
+let simpleString = "";
+let simpleNumber = 0;
+let simpleBoolean = true;
+let simpleArray = [];
+let simpleObject = {};
+```
 
 ## Conclusion
 
