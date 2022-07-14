@@ -160,7 +160,7 @@ let myAlphabet = [
 ### 3. Manipulate data types
 - Declare and initialize an array called ``someDataTypes``.
 - This array must have 4 differents data types (NOT Objects).
-- Type and display in your console the ``typeof`` for each iteration.
+- Write and display in your console the ``typeof`` for each iteration.
 - Display in your console the ``index`` of each data in your array.
 
 ### 4. Empty Array
