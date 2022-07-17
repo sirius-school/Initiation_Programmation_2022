@@ -103,9 +103,9 @@ Bon travail !
 
 ![](https://media.giphy.com/media/13GIgrGdslD9oQ/giphy.gif)
 
-[:arrow_right: Suite du cours : *les fonctions*](4_project_calculator.md)
+[:arrow_right: Suite du cours : *Boites de dialogue*](4_window_document.md)
 
-[:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
 
 > Created by Julie Vanderbyse
 > 

@@ -429,6 +429,8 @@ J'espère que vous êtes prêt?! Je suis quand même gentil je vous laisse le ch
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
+[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+
 > Cours original: Julie Vanderbyse
 >
 > Modification: Jeremy Scala

@@ -426,7 +426,7 @@ Phew! Ca en fait des nouvelles choses à assimiler. Tout va bien??
 
 Alors si tout va bien, un petit [questionnaire !](https://forms.gle/MFhdcrrkveThnQiRA)
 
-[:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
 
 > Cours original: Julie Vanderbyse
 >

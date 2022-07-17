@@ -4,20 +4,36 @@
 Avant de vous lancer dans les exercices nous allons apprendre comment manipuler vos données contenues dans un tableau.
 <!-- omit in toc -->
 ## Tables des matières
-- [Boucler dans un tableau](#boucler-dans-un-tableau)
-- [Ajouter une donnée](#ajouter-une-donnée)
-- [Supprimer la dernière donnée](#supprimer-la-dernière-donnée)
-- [Supprimer le première donnée](#supprimer-le-première-donnée)
-- [Ajouter une donnée à l'indice 0](#ajouter-une-donnée-à-lindice-0)
-- [Supprimer une donnée grâce à son indice[]](#supprimer-une-donnée-grâce-à-son-indice)
-- [Copier un tableau](#copier-un-tableau)
+- [Opérations de tableaux (arrays operations)](#opérations-de-tableaux-arrays-operations)
+  - [Boucler dans un tableau](#boucler-dans-un-tableau)
+  - [Ajouter une donnée](#ajouter-une-donnée)
+  - [Supprimer la dernière donnée](#supprimer-la-dernière-donnée)
+  - [Supprimer le première donnée](#supprimer-le-première-donnée)
+  - [Ajouter une donnée à l'indice 0](#ajouter-une-donnée-à-lindice-0)
+  - [Supprimer une donnée grâce à son indice[]](#supprimer-une-donnée-grâce-à-son-indice)
+  - [Copier un tableau](#copier-un-tableau)
+- [Méthodes](#méthodes)
+  - [findIndex](#findindex)
+  - [Filter](#filter)
+  - [Reduce](#reduce)
+  - [Map](#map)
+  - [Includes](#includes)
+  - [Sort](#sort)
 - [Petite précision !](#petite-précision-)
-<!-- omit in toc -->
+- [Let's go practice !](#lets-go-practice-)
+  - [1. Length](#1-length)
+  - [2. Create an Array](#2-create-an-array)
+  - [3. Manipulate data types](#3-manipulate-data-types)
+  - [4. Empty Array](#4-empty-array)
+  - [5. How many letters?](#5-how-many-letters)
+  - [6. Which one is a number?](#6-which-one-is-a-number)
+  - [7. Gemini (optional & hard)](#7-gemini-optional--hard)
+
 ## Opérations de tableaux (arrays operations)
 
 ### Boucler dans un tableau
 
-La boucle ``.foreach()`` est *la* boucle que vous devez utiliser dès que vous entendez le mot ``Array``. En effet elle vous permettra d'afficher tous les éléments d'un tableau et ce un par un :
+Votre première loop, la boucle ``.foreach()`` est *la* boucle que vous devez utiliser dès que vous entendez le mot ``Array``. En effet elle vous permettra d'afficher tous les éléments d'un tableau et ce un par un :
 
 ```js
 let fruits = ["Pomme", "Orange", "Fraise"];
@@ -104,7 +120,84 @@ console.log(copyFruits);
 ```
 Output console : ``["Pomme", "Orange", "Fraise"]``
 
-### Petite précision !
+## Méthodes
+
+### findIndex
+
+La méthode findIndex permet de trouver une correspondance entre un élément et son index dans le tableau. Elle renvoie l'index du premier élément répondant à la condition. Si il ne trouve aucune correspondance la valeur renvoyée sera de -1 (false). Continuons avec la variable ``fruits`` :
+```js
+const index = fruits.findIndex(element => element === "Pomme");
+console.log(index);
+console.log(fruits[index]);
+```
+
+### Filter
+Comme son nom l'indique, la méthode ``filter()`` permet d'appliquer un filtre personnalisé, et ensuite de renvoyer le résultat de ce filtre dans un nouveau tableau. Exemple d'utilisation :
+
+```js
+let fruits = ["Pomme", "Orange", "Fraise"];
+let newArrayFruits = fruits.filter(element => element === "Pomme");
+console.log(newArrayFruits);
+```
+Output console : ``["Pomme"]``
+
+Dans l'exemple ci-dessus le filtre demande de retourner les éléments du tableau correspondant **strictement** à la chaîne de caractère ``"Pomme"``. On stock la valeur du filtre à l'intérieur d'une nouvelle variable qui contiendra après application le nouveau tableau d'éléments retourné par filter.
+
+### Reduce
+
+Permet d'accumuler les valeurs d'un tableau et de les réduire à une valeur **unique**. Par exemple, imaginons un tableau d'objet dans lequel une clé contient de nouveau un tableau. Je souhaite créer un nouveau tableau contenant toutes les valeurs de cette clé pour chaque objet. Dans ce cas la console affichera les valeurs pour chaque objet rassemblés au sein d'un nouveau tableau :
+
+```js
+const arrayNum = [1, 2, 3, 4];
+const sum = arrayNum.reduce(
+  (previousValue, currentValue) => previousValue + currentValue
+);
+console.log(sum);
+```
+
+Output console : ``10``
+
+### Map
+La fonction ``map()`` performe une fonction sur chaque élément du tableau et renvoit un nouveau tableau contenant les éléments transformés :
+```js
+let numberArray = [1, 2, 3, 4];
+let byTwoArray = numberArray.map(element => element * 2);
+console.log(byTwoArray);
+```
+
+Output console : ``[2, 4, 6, 8]``
+
+### Includes
+``includes()`` va chercher une occurence dans le tableau et renvoit une valeur booléenne ``true`` ou ``false`` en fonction de si il a trouvé un élément équivalent ou non :
+
+```js
+let fruits = ["Pomme", "Orange", "Fraise"];
+console.log(siriusTeamArray.includes('Fraise'));
+```
+
+Output console : ``true``
+
+
+### Sort
+La méthode ``sort()`` trie les éléments d'un tableau, **dans ce même tableau**, et renvoie le tableau. Par défaut, le tri s'effectue sur les éléments du tableau convertis en *chaînes de caractères* et triées selon les valeurs des unités de code UTF-16 des caractères.
+```js
+let sortArray = [1, 10, 3];
+console.log(sortArray.sort());
+```
+
+Output console : ``[1, 10, 3]``
+
+
+Si on veut trier un tableau de **nombre**, il convient d’utiliser la méthode suivante :
+
+```js
+let sortArray = [1, 10, 3];
+console.log(sortArray.sort((a, b) => a - b));
+```
+
+Output console : ``[1, 3, 10]``
+
+## Petite précision !
 
 Dans votre code vous avez encodé vous-même votre tableau **mais** quand vous serez développeur, vous utiliserez des tableaux qui ne seront peut-être pas dans votre code source et dont vous ne serez pas le "propriétaire". Donc si vous faites une suppression, ce sera **irréversible**... C'est à ce moment qu'on se dit heureusement il y a ``.slice()`` attention quand même de ne pas copier un tableau avec des milliers de données 😋
 
@@ -193,6 +286,9 @@ let studentCoursesB = ['Geography', 'Spanish', 'Programming'];
 ```
 - Find a way to compare it and if there any common words, console.log them.
 
+[:arrow_right: Suite du cours : *les fonctions et condition*](3_functions_conditions.md)
+
+[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
 
 > Exercises Credits : [Kauress](https://dev.to/kauresss/some-js-array-exercises-for-beginners-9j8)
 > 
