@@ -172,7 +172,7 @@ Output console : ``[2, 4, 6, 8]``
 
 ```js
 let fruits = ["Pomme", "Orange", "Fraise"];
-console.log(siriusTeamArray.includes('Fraise'));
+console.log(fruits.includes('Fraise'));
 ```
 
 Output console : ``true``
