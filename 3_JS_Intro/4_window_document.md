@@ -14,6 +14,11 @@
     - [Math.floor()](#mathfloor)
     - [Math.random()](#mathrandom)
     - [Utilisation de Math.floor et de Math.Random](#utilisation-de-mathfloor-et-de-mathrandom)
+  - [ParseInt & ParseFloat](#parseint--parsefloat)
+    - [parseInt()](#parseint)
+    - [parseFloat()](#parsefloat)
+  - [Les fonctions CallBack](#les-fonctions-callback)
+  - [La méthode setTimeOut](#la-méthode-settimeout)
 
 ## L'objet Window & Document
 
@@ -162,66 +167,100 @@ let randomNumber = Math.floor(Math.floor() * Math.random(255));
 ```
 Dans l'exemple ci-dessus la valeur de notre variable ``randomNumber`` sera un entier compris entre 0 et 255, par exemple 133, n'hésitez pas à essayer par vous même en faisant un ``console.log(randomNumber)`` et en modifiant le paramètre pré-établi.
 
-<!-- Stop -->
-<!-- On pourrait utiliser un chiffre aléatoire pour générer une couleur aléatoire en remplaçant les valeur RGB par la valeur d'un random. On peut également l'utiliser pour pointer aléatoirement un index dans un tableau Par exemple:
+- Tout petite mise en pratique :
+
+*Utiliser un chiffre aléatoire compris entre 0 et 255 pour générer un ``background-color`` aléatoire en remplaçant les valeurs ``RGB`` par la valeur d'un ``random``. Pour effectuer le changement de couleur, créer un bouton qui sera l'interaction avec l'utilisateur.*
+<br>
+
+On peut également l'utiliser pour pointer aléatoirement un index dans un tableau.<br>
+Par exemple:
+```js
 console.log(myArray.length);
-// On commence par trouver la longueur du tableau sur lequel on désir pointer un index aléatoire. Dans ce cas ci imaginons un tableau de 12 éléments.
+```
+On commence par trouver la longueur du tableau sur lequel on désir pointer un index aléatoire. Dans ce cas ci imaginons un tableau de 12 éléments donc avec des index de 0 à 11.
 
-let randomNumber = Math.floor(Math.floor() * Math.random(11))
+```js
+let randomNumber = Math.floor(Math.floor() * Math.random(11));
+```
+On défini la limite du random à 11, si un tableau est long de 12 éléments il possède 11 index étant donné que le premier index est initialisé à 0.
 
-// On défini la limite du random à 11, si un tableau est long de 12 éléments il possède 11 index étant donné que le premier index est initialisé à 0.
-
+```js
 console.log(myArray[randomNumber]);
+```
+On affiche ensuite l'élément du tableau qui correspond à la valeur du random contenu dans la variable randomNumber
 
-// On affiche ensuite l'élément du tableau qui correspond à la valeur du random contenu dans la variable randomNumber
 
+### ParseInt & ParseFloat
 
-1. ParseInt, ParseFloat
-Ces méthodes permettent de convertir un chiffre de type "chaîne de caractère" en type "nombre" et de les rendre disponnible aux opérations mathématiques.
+Ces méthodes permettent de convertir un chiffre de type ``string`` en type ``number`` et de les rendre disponible aux opérations mathématiques :
+```js
 parseInt();
-Syntaxe:
 parseInt("valeur à convertir", base);
+```
+#### parseInt()
+
+Permet de convertir un chiffre **entier** de type ``string`` en un chiffre **entier** de type ``number``. Cette méthode requiert deux paramètres. La valeur à convertir, et la base. La base est un chiffre compris entre 2 et 36, elle peut par exemple convertir une image en chiffre afin de les stocker dans une base de données. Retenez que la base à utiliser est la base ``décimale`` correspondant au chiffre **10**. Votre code se présentera donc sous cette forme :
+
+```js
+console.log(parseInt("14", 10));
+```
+
+Pour aller plus loin : la doc' [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+#### parseFloat()
+
+Permet de convertir un chiffre à virgule (décimale) de type ``string``, en un chiffre à virgule de type ``number`` :
+```js
+console.log(parseFloat("3.14", 10));
+```
+Cette méthode possède également deux paramètres, la valeur à convertir, et la base (toujours 10 dans notre cas).
+
+Pour aller plus loin : la doc [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/parseFloat)
 
 
-Permet de convertir un chiffre entier de type chaîne de caractère en un chiffre entier de type nombre La méthode parseInt requiert deux paramètres. La valeur à convertir, et la base. La base est un chiffre compris entre 2 et 36. La base peut par exemple convertir une image en chiffre afin de les stocker dans une base de donnée. Il s'agit d'un concept avancé que nous n'aborderons pas dans ce cours. En ce qui nous concerne retenez que la base à utiliser est la base "décimale" correspondant au chiffre 10. Votre code se présentera donc sous cette forme:
-parseInt("14", 10);
-//output: 14
+### Les fonctions CallBack
 
+Vous avez déjà eu l'occasion de les manipuler à plusieurs reprises et vous les avez déjà vues sur MDN. Les fonctions ``callback`` sont des fonctions de rappel appelées au sein d'autres fonctions dans leurs paramètres. Par exemple dans un ``foreach``, ou un ``addEventListener``.
 
-Pour aller plus loin: la doc mdn -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/parseInt
-parseFloat();
-Permet de convertir un chiffre à virgule (décimale) de type chaîne de caractère, en un chiffre à virgule de type nombre. Syntaxe:
-parseFloat("3.14", 10)
-//output: 3.14
-
-
-Il possède également deux paramètres, la valeur à convertir, et la base (toujours 10 dans notre cas)
-Pour aller plus loin: la doc mdn -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/parseFloat
-
-
-5.1. Les fonctions CallBack
-Vous avez déjà eu l'occasion de les manipuler à plusieurs reprises. Les fonctions callback sont les fonctions de rappel appelées au sein d'autres fonctions dans leurs paramètres. Par exemple dans un foreach, ou un addEventListener
-siriusTeamArray.forEach((el) => {
-    console.log(el)
+```js
+let siriusTeamArray = ["Jeremy", "Ganaëlle", "Lucas"];
+siriusTeamArray.forEach((element) => {
+    console.log(element);
 })
+```
+Dans l'exemple ci-dessus la fonction callback est déclarée à l'aide de la synthaxe EcmaSript6, elle reçoit un paramètre ``(el)`` et est déclarée à l'aide d'une ``arrow function``.
 
-
-Dans l'exemple ci dessus la fonction callback est déclarée à l'aide de la synthaxe ES6, elle reçoit un paramètre (el) et est déclarée à l'aide d'une arrow function.
+Exemple concret :
+```js
+document.getElementById("button").addEventListener("click", () => {
+    console.log("Hello World");
+}) // Arrow Function
 document.getElementById("button").addEventListener("click", function(){
     console.log("Hello World");
-})
+}) // La même fonction mais en utilisant le mot-clé function
+```
 
+### La méthode setTimeOut
 
-Dans cet exemple par contre elle est bien déclarée à l'aide du mot clé function.
-
-5.2. La méthode setTimeOut
-Permet d'exécuter une fonction callback après un temps donné.
+Permet d'exécuter une fonction ``callback`` après un temps donné, un ``délai``.
+```js
 window.setTimeOut(() => {
     console.log("Hello World");
 }, 2000)
+```
+Dans l'exemple ci-dessus, ``2000`` représente 2000 millisecondes, autrement dit 2 secondes. La fonction callback renvoit un ``console.log()`` différé de 2 secondes.
 
+![](https://media.giphy.com/media/BUKgXhu9o5kqI/giphy.gif)
 
-Dans l'exemple ci dessus, 2000 représente 2000 milliseconde, autrement dit 2 secondes. La fonction callback renvoit un console.log après 2 secondes. -->
+[:arrow_right: Suite du cours : *Boucles*](5_loops.md)
+
+[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+
+> Created by Julie Vanderbyse
+> 
+> Edited by Jeremy Scala
+> 
+> Edited by Lucas Ielli
 
  
 
