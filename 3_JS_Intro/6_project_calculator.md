@@ -13,3 +13,5 @@ N'oubliez pas de commit quand il faut, surtout de push votre travail à la fin e
 # Le projet Todo list
 
 Un incontournable quand on débute le développement web et surtout JavaScript. Vous allez devoir créer de A à Z un système de todo list en enregistrant les données en local.
+
+> Created by Lucas Ielli
