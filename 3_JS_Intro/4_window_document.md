@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Boucles (loops)
+# Window & document
 <!-- omit in toc -->
 ## Table des matières
 - [L'objet Window & Document](#lobjet-window--document)
