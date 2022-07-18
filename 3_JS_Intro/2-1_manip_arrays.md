@@ -181,7 +181,7 @@ Output console : ``true``
 ### Sort
 La méthode ``sort()`` trie les éléments d'un tableau, **dans ce même tableau**, et renvoie le tableau. Par défaut, le tri s'effectue sur les éléments du tableau convertis en *chaînes de caractères* et triées selon les valeurs des unités de code UTF-16 des caractères.
 ```js
-let sortArray = [1, 10, 3];
+let sortArray = [10, 1, 3];
 console.log(sortArray.sort());
 ```
 
