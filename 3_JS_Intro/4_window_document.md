@@ -250,6 +250,8 @@ window.setTimeOut(() => {
 ```
 Dans l'exemple ci-dessus, ``2000`` représente 2000 millisecondes, autrement dit 2 secondes. La fonction callback renvoit un ``console.log()`` différé de 2 secondes.
 
+Bon ! On arrive tout doucement au bout de la théorie et vous n'aurez non pas un mais deux exercices à la fin de celle-ci. **Let's go !**
+
 ![](https://media.giphy.com/media/BUKgXhu9o5kqI/giphy.gif)
 
 [:arrow_right: Suite du cours : *Boucles*](5_loops.md)
