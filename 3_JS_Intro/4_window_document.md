@@ -146,9 +146,10 @@ let floorNumber= Math.floor(14.32);
 Renvoit un nombre "flottant", c'est à dire qu'il est très probable d'obtenir un chiffre avec une décimale, compris entre 0 et le chiffre donné en paramètre de la méthode ``random()``. Par exemple :
 
 ```js
-let randomNumber = Math.random(18);
-// valeur de randomNumber: 9.15
+let randomNumber = Math.random() * 18;
+console.log(randomNumber);
 ```
+Output console, exemple : ``7.74``
 
 #### Utilisation de Math.floor et de Math.Random
 
