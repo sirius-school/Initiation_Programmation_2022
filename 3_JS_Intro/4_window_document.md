@@ -137,7 +137,7 @@ Celles qui nous intéressent sont les méthodes ``floor()`` et ``random()``.
 
 Renvoit un entier qui est plus petit ou égal au nombre passé en paramètre de la méthode ``floor()``. Par exemple:
 ```js
-let floorNumber= Math.floor(14.32);
+let floorNumber = Math.floor(14.32);
 //valeur de floorNumber: 14
 ```
 
@@ -146,9 +146,10 @@ let floorNumber= Math.floor(14.32);
 Renvoit un nombre "flottant", c'est à dire qu'il est très probable d'obtenir un chiffre avec une décimale, compris entre 0 et le chiffre donné en paramètre de la méthode ``random()``. Par exemple :
 
 ```js
-let randomNumber = Math.random(18);
-// valeur de randomNumber: 9.15
+let randomNumber = Math.random() * 18;
+console.log(randomNumber);
 ```
+Output console, exemple : ``7.74``
 
 #### Utilisation de Math.floor et de Math.Random
 
@@ -163,9 +164,11 @@ function getRandomInt(param) {
 Petit exemple que vous utiliserez :
 
 ```js
-let randomNumber = Math.floor(Math.floor() * Math.random(255));
+let randomNumber = Math.floor(Math.random() * 256);
 ```
-Dans l'exemple ci-dessus la valeur de notre variable ``randomNumber`` sera un entier compris entre 0 et 255, par exemple 133, n'hésitez pas à essayer par vous même en faisant un ``console.log(randomNumber)`` et en modifiant le paramètre pré-établi.
+Output console, exemple : ``189``
+
+Dans l'exemple ci-dessus la valeur de notre variable ``randomNumber`` sera un entier compris entre 0 et 256 (256 exclu ⚠️), par exemple 133, n'hésitez pas à essayer par vous même en faisant un ``console.log(randomNumber)`` et en modifiant le paramètre pré-établi.
 
 - Tout petite mise en pratique :
 
@@ -180,15 +183,20 @@ console.log(myArray.length);
 On commence par trouver la longueur du tableau sur lequel on désir pointer un index aléatoire. Dans ce cas ci imaginons un tableau de 12 éléments donc avec des index de 0 à 11.
 
 ```js
-let randomNumber = Math.floor(Math.floor() * Math.random(11));
+let randomNumber = Math.floor(Math.random() * 12);
 ```
-On défini la limite du random à 11, si un tableau est long de 12 éléments il possède 11 index étant donné que le premier index est initialisé à 0.
+On défini la limite du random à 12 car Math.random() exclu le 1 qui est multiplié ensuite par 12. Donc si un tableau est long de 12 éléments il possède 11 index étant donné que le premier index est initialisé à 0.
 
 ```js
 console.log(myArray[randomNumber]);
 ```
-On affiche ensuite l'élément du tableau qui correspond à la valeur du random contenu dans la variable randomNumber
+On affiche ensuite l'élément du tableau qui correspond à la valeur du random contenu dans la variable randomNumber.
 
+```js
+let randomNumber = Math.floor(Math.random() * myArray.length);
+console.log(myArray[randomNumber]);
+```
+Cette façon d'écrire nous donnera un résultat peu importe la longueur du tableau.
 
 ### ParseInt & ParseFloat
 
