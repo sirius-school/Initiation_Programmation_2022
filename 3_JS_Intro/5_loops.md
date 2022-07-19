@@ -77,7 +77,7 @@ La théorie pour cette partie du cours est **finie** !!! J'espère que vous ête
 
 ![](https://c.tenor.com/Fthj62gIHrIAAAAM/falling-papers-people-are-awesome.gif)
 
-[:arrow_right: Suite du cours : *Exercices !*](6_project_calculator.md)
+[:arrow_right: Suite du cours : *Exercices !*](./3-1_Js30_DrumKit)
 
 [:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
 
