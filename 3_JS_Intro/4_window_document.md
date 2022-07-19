@@ -190,8 +190,13 @@ On défini la limite du random à 12 car Math.random() exclu le 1 qui est multip
 ```js
 console.log(myArray[randomNumber]);
 ```
-On affiche ensuite l'élément du tableau qui correspond à la valeur du random contenu dans la variable randomNumber
+On affiche ensuite l'élément du tableau qui correspond à la valeur du random contenu dans la variable randomNumber.
 
+```js
+let randomNumber = Math.floor(Math.random() * myArray.length);
+console.log(myArray[randomNumber]);
+```
+Cette façon d'écrire nous donnera un résultat peu importe la longueur du tableau.
 
 ### ParseInt & ParseFloat
 
