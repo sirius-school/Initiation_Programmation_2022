@@ -183,9 +183,9 @@ console.log(myArray.length);
 On commence par trouver la longueur du tableau sur lequel on désir pointer un index aléatoire. Dans ce cas ci imaginons un tableau de 12 éléments donc avec des index de 0 à 11.
 
 ```js
-let randomNumber = Math.floor(Math.floor() * Math.random(11));
+let randomNumber = Math.floor(Math.random() * 12);
 ```
-On défini la limite du random à 11, si un tableau est long de 12 éléments il possède 11 index étant donné que le premier index est initialisé à 0.
+On défini la limite du random à 12 car Math.random() exclu le 1 qui est multiplié ensuite par 12. Donc si un tableau est long de 12 éléments il possède 11 index étant donné que le premier index est initialisé à 0.
 
 ```js
 console.log(myArray[randomNumber]);
