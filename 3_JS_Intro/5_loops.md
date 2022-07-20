@@ -32,7 +32,7 @@ On pourrait traduire cette fonction de cette manière :
 
 ## La boucle do...while
 
-Celle-ci exécute une action tant que sa condition n'est pas remplie. Elle ne s'auto incrémente pas cependant contrairement à la boucle for qui elle possède une auto-incrémentation en paramètre de fonction. Exemple :
+Celle-ci exécute une action tant que sa condition n'est pas remplie. Elle ne s'auto incrémente pas contrairement à la boucle for qui elle possède une auto-incrémentation en paramètre de fonction. Exemple :
 
 ```js
 let arrayTest = [];
