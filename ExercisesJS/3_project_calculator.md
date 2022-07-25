@@ -7,11 +7,12 @@ On a tous déjà eu une calculatrice en main et maintenant directement intégré
 ### 3. Créer votre squelette HTML.
 ### 4. Un peu de fantaisie, ajouter du CSS simple et minimaliste.
 ### 5. Script, script, script.
+### 6. Ne copiez pas bêtement un code trouvé sur internet, parce que vous devrez expliquez devant la classe (5 minutes) comment vous avez créer votre projet !
 
 N'oubliez pas de commit quand il faut, surtout de push votre travail à la fin et de m'envoyer le lien du repo sur Discord !
 
-# Le projet Todo list
+# Bonne chance
 
-Un incontournable quand on débute le développement web et surtout JavaScript. Vous allez devoir créer de A à Z un système de todo list en enregistrant les données en local.
+![](.\Resources\VikasLalwaniCalcDesign.png)
 
 > Created by Lucas Ielli
