@@ -13,6 +13,6 @@ N'oubliez pas de commit quand il faut, surtout de push votre travail à la fin e
 
 # Bonne chance
 
-![](.\Resources\VikasLalwaniCalcDesign.png)
+![](./Resources/VikasLalwaniCalcDesign.png)
 
 > Created by Lucas Ielli
