@@ -43,4 +43,13 @@ html {
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+  }
+  .hour-hand {
+    width: 40%;
+    left: 10%;
+  }
+  .second-hand {
+    height: 4px;
+    outline: 1px solid red;
   }

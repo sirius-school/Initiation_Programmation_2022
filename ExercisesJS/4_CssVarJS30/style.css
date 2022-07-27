@@ -1,0 +1,21 @@
+/*
+  Comme le montre l'HTML vous aurez besoin de trois variables CSS
+  La doc MDN : https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties
+*/
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+  
+  .controls {
+    margin-bottom: 50px;
+  }
+  
+  input {
+    width: 100px;
+  }
