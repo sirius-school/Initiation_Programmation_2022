@@ -1,12 +1,8 @@
 # Ressources - feuilles de triche 😈
 
-## C'est pas vraiment de la triche car en développement web vous ne pouvez pas tout retenir, et c'est tout à fait normal ! Pas d'inquiétude les "cheat sheets" sont la 😁
+### C'est pas vraiment de la triche car en développement web vous ne pouvez pas tout retenir, et c'est tout à fait normal ! Pas d'inquiétude les "cheat sheets" sont la 😁
 
-<br>
-
-## ⚠️ N'hésitez surtout pas à faire une recherche Google pour trouver ce dont vous avez besoin !
-
-<br>
+>⚠️ N'hésitez surtout pas à faire une recherche Google pour trouver ce dont vous avez besoin !
 
 ### Besoin d'écrire un beau README, meilleure solution le **Markdown** :
 
