@@ -264,7 +264,7 @@ Bon ! On arrive tout doucement au bout de la théorie et vous n'aurez non pas un
 
 [:arrow_right: Suite du cours : *Boucles*](5_loops.md)
 
-[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#au-programme)
 
 > Created by Julie Vanderbyse
 > 

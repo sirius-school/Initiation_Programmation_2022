@@ -40,6 +40,6 @@ Git et Github sont des outils indispensables pour un développeur et pour travai
 
 [:arrow_right: Suite du cours : *Les bases de JavaScript*](2_basics_JS.md)
 
-[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#au-programme)
 
 > Cours original: Lucas Ielli

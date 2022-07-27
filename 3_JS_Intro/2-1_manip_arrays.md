@@ -5,7 +5,7 @@ Avant de vous lancer dans les exercices nous allons apprendre comment manipuler 
 <!-- omit in toc -->
 ## Tables des matières
 - [Opérations de tableaux (arrays operations)](#opérations-de-tableaux-arrays-operations)
-  - [Boucler dans un tableau](#boucler-dans-un-tableau)
+  - ["Boucler" dans un tableau](#boucler-dans-un-tableau)
   - [Ajouter une donnée](#ajouter-une-donnée)
   - [Supprimer la dernière donnée](#supprimer-la-dernière-donnée)
   - [Supprimer le première donnée](#supprimer-le-première-donnée)
@@ -31,9 +31,9 @@ Avant de vous lancer dans les exercices nous allons apprendre comment manipuler 
 
 ## Opérations de tableaux (arrays operations)
 
-### Boucler dans un tableau
+### "Boucler" dans un tableau
 
-Votre première loop, la boucle ``.foreach()`` est *la* boucle que vous devez utiliser dès que vous entendez le mot ``Array``. En effet elle vous permettra d'afficher tous les éléments d'un tableau et ce un par un :
+Votre première loop, la boucle ``.forEach()`` est *la* boucle que vous devez utiliser dès que vous entendez le mot ``Array``. En effet elle vous permettra d'afficher tous les éléments d'un tableau et ce un par un :
 
 ```js
 let fruits = ["Pomme", "Orange", "Fraise"];
@@ -288,7 +288,7 @@ let studentCoursesB = ['Geography', 'Spanish', 'Programming'];
 
 [:arrow_right: Suite du cours : *les fonctions et condition*](3_functions_conditions.md)
 
-[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#au-programme)
 
 > Exercises Credits : [Kauress](https://dev.to/kauresss/some-js-array-exercises-for-beginners-9j8)
 > 

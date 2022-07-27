@@ -386,7 +386,7 @@ Toute cette théorie n'est pas à retenir par coeur, mais vous devez savoir que 
 
 [:arrow_right: Suite du cours : *les fonctions et conditions*](3_functions_conditions.md)
 
-[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#au-programme)
 
 > Cours original: Julie Vanderbyse
 >

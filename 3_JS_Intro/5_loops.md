@@ -79,7 +79,7 @@ La théorie pour cette partie du cours est **finie** !!! J'espère que vous ête
 
 [:arrow_right: Suite du cours : *Exercices !*](../ExercisesJS/)
 
-[:rewind: Retour au sommaire du cours](../README.md#table-des-matières)
+[:rewind: Retour au sommaire du cours](../README.md#au-programme)
 
 > Created by Julie Vanderbyse
 > 
