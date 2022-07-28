@@ -19,6 +19,7 @@
 ### En JavaScript, _console.log()_ est un bon moyen de débugger :
 
 - https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
+- Une cheat sheet plutôt complète sous forme d'images [/Resources/Images/JavaScriptCheatSheet](./Images/JavaScriptCheatSheet/)
 
 ### Vous aurez besoin de ça si jamais vous n'aimez pas l'interface visuel de Github Desktop :
 
