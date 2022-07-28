@@ -22,7 +22,9 @@ Lisez-bien l'entiereté de ce document vous retrouverez toutes les informations 
 
 ### [Module 5 - Projet Global en collaboration avec les autres formations Sirius.](/5_Global_Project/)
 
-## [Ressources](/Resources/)
+## [Exercices](./ExercisesJS/)
+
+## [Ressources](./Resources/)
 
 - [Feuilles de triche](/Resources/cheat_sheets.md)
 - [Images](/Resources/Images/)
