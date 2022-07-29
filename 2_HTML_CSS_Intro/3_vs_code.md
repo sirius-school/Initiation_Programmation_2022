@@ -128,6 +128,7 @@ Il y a évidement des centaines, des milliers d'extensions. Vous pouvez par exem
 - `Ctrl` + `D` : sélection multiple.
 - `Ctrl` + `L` : sélectionner une ligne entière.
 - `Ctrl` + `J` : terminal VSCode.
+- `Alt` + `Tab` : naviguer entre vos fênetres.
 
 ### Les flèches
 
