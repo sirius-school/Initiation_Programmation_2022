@@ -118,17 +118,17 @@ Il y a évidement des centaines, des milliers d'extensions. Vous pouvez par exem
 
 ### Les basiques
 
-`Ctrl` + `X` : couper.
-`Ctrl` + `C` : copier.
-`Ctrl` + `V` : coller.
-`Ctrl` + `S` : sauvergader.
-`Ctrl` + `Z` : annuler.
-`Ctrl` + `Y` : refaire.
-`Ctrl` + `F` : rechercher.
-`Ctrl` + `A` : sélectionner tout.
-`Ctrl` + `D` : sélection multiple.
-`Ctrl` + `L` : sélectionner une ligne entière.
-`Ctrl` + `J` : terminal VSCode.
+- `Ctrl` + `X` : couper.
+- `Ctrl` + `C` : copier.
+- `Ctrl` + `V` : coller.
+- `Ctrl` + `S` : sauvergader.
+- `Ctrl` + `Z` : annuler.
+- `Ctrl` + `Y` : refaire.
+- `Ctrl` + `F` : rechercher.
+- `Ctrl` + `A` : sélectionner tout.
+- `Ctrl` + `D` : sélection multiple.
+- `Ctrl` + `L` : sélectionner une ligne entière.
+- `Ctrl` + `J` : terminal VSCode.
 
 ### Les flèches
 
