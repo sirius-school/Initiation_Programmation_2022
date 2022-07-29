@@ -26,7 +26,6 @@ Voyons quelques astuces qui peuvent t'aider à utiliser ce logiciel au mieux
   - [`Alt` + `Shift` + flèches](#alt--shift--flèches)
   - [`Ctrl` + `Shift` + P](#ctrl--shift--p)
   - [`Alt` + curseur](#alt--curseur)
-  - [`Alt` + `Suppr`](#alt--suppr)
   - [`Ctrl` + `Suppr`](#ctrl--suppr)
   - [`Double-clic`](#double-clic)
   - [`Maj` + `Suppr`](#maj--suppr)
@@ -149,10 +148,6 @@ Ce raccourci permet de faire apparaître la palette de VSCode. Dedans vous pouve
 ### `Alt` + curseur
 
 Ce raccourci permet de placer de multiple curseur dans votre document.
-
-### `Alt` + `Suppr`
-
-Ce raccourci permet de supprimer mot par mot.
 
 ### `Ctrl` + `Suppr`
 
