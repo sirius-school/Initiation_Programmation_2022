@@ -13,6 +13,8 @@ Après la calculatrice, on augmente d'un cran le niveau, cet exercice fera appel
 ### Structurer :
 
 - Créer votre repositery sur Github.com.
+- N'oubliez pas de créer une branche `development`
+- Quand le projet sera fini `merge` sur `main`
 - Créer un readme simple et efficace en [MarkDown](https://www.markdownguide.org/cheat-sheet/).
 - Créer votre structure de fichiers.
 - Créer votre squelette HTML.
