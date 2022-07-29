@@ -121,7 +121,7 @@ Il y a évidement des centaines, des milliers d'extensions. Vous pouvez par exem
 - `Ctrl` + `X` : couper.
 - `Ctrl` + `C` : copier.
 - `Ctrl` + `V` : coller.
-- `Ctrl` + `S` : sauvergader.
+- `Ctrl` + `S` : sauvegarder.
 - `Ctrl` + `Z` : annuler.
 - `Ctrl` + `Y` : refaire.
 - `Ctrl` + `F` : rechercher.
